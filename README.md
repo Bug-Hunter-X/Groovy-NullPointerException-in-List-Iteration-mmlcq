@@ -1,0 +1,1 @@
+This example demonstrates a common error in Groovy: a NullPointerException occurring when an operation is performed on a null list.  The `someMethod` attempts to iterate over a list, but if a null list is passed, a `NullPointerException` is thrown.  This is a frequent issue when dealing with potentially null values.  The solution shows how to safely handle this situation.
